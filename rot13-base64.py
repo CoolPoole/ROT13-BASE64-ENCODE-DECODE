@@ -48,11 +48,11 @@ def base64_decode():
 def quitter():
     ascii_closing_banner = pyfiglet.figlet_format("Peace!\n")
     print(ascii_closing_banner)
-    time.sleep(3)
+    time.sleep(1)
 
 # Main 
 
-ascii_banner = pyfiglet.figlet_format("\nEncoding \nand\n Decoding \nOld School")
+ascii_banner = pyfiglet.figlet_format("\nEncode \nand\n Decode \nOld School", font="banner3-d")
 print(ascii_banner)
 
 while (again != 'N'):
