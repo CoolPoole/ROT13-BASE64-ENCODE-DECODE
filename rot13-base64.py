@@ -52,7 +52,7 @@ def quitter():
 
 # Main 
 
-ascii_banner = pyfiglet.figlet_format("\nEncoding and Decoding - Old School")
+ascii_banner = pyfiglet.figlet_format("\nEncoding \nand\n Decoding \nOld School")
 print(ascii_banner)
 
 while (again != 'N'):
@@ -80,8 +80,10 @@ while (again != 'N'):
         elif (next_choice == 2):
             base64_decode()
         else:
-            quitter()
             break
+    else:
+        quitter()
+        break
 
     again = input("\nWould you like to look up more? (Y/N) ")
 
