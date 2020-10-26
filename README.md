@@ -1,4 +1,4 @@
-# ROT13-BASE64-ENCODE-DECODE
+# ROT13-BASE64-CODING
 Taking it way back
 
 ## **Usage**
