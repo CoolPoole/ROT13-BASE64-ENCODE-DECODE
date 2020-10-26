@@ -72,7 +72,7 @@ while (again != 'N'):
             rot13_decode()
         else:
             break
-    if (choice == 2):
+    elif (choice == 2):
         next_choice = int(input("\nEnter \n (1) to encode\n (2) to decode\n (3) to quit \r\n\n Choice: "))
 
         if (next_choice == 1):
